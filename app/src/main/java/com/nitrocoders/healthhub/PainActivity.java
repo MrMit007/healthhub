@@ -16,29 +16,29 @@ public class PainActivity extends AppCompatActivity {
     public void onClickImage(View view) {
         switch (view.getId()){
             case R.id.btmheadche:
-                Intent intentComp = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentComp);
+                Intent intentHead = new Intent(PainActivity.this,headache.class);
+                startActivity(intentHead);
                 break;
             case R.id.btnbackpain:
-                Intent intentMech = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentMech);
+                Intent intentBack = new Intent(PainActivity.this,backpain.class);
+                startActivity(intentBack);
                 break;
             case R.id.btnstomachache:
-                Intent intentCivil = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentCivil);
+                Intent intentStomach = new Intent(PainActivity.this,stomachache.class);
+                startActivity(intentStomach);
                 break;
             case R.id.btntoothache:
-                Intent intentEc = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentEc);
+                Intent intentTooth = new Intent(PainActivity.this,toothache.class);
+                startActivity(intentTooth);
                 break;
 
             case R.id.btnear:
-                Intent intentit = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentit);
+                Intent intentEar = new Intent(PainActivity.this,earache.class);
+                startActivity(intentEar);
                 break;
             case R.id.btnsorethroat:
-                Intent intentee = new Intent(PainActivity.this,headacheActivity.class);
-                startActivity(intentee);
+                Intent intentThroat = new Intent(PainActivity.this,soreThroat.class);
+                startActivity(intentThroat);
                 break;
         }
     }

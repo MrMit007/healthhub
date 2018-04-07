@@ -79,10 +79,10 @@ cold & cough
 
 
 backpain
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FiZ6ws8lYQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/FiZ6ws8lYQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 sore throat
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DstbJtfKrpQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/DstbJtfKrpQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 asthma
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a81044nxI9I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/a81044nxI9I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

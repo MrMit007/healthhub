@@ -31,7 +31,6 @@ public class PainActivity extends AppCompatActivity {
                 Intent intentEc = new Intent(this,EcEng.class);
                 startActivity(intentEc);
                 break;
-
         }
     }
 }

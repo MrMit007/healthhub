@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Headache"
+        android:text="Stomachache"
         android:gravity="center"
         android:textSize="30dp"
         android:background="@color/colorPrimary"
@@ -24,7 +24,7 @@
         android:paddingRight="50px"
         android:paddingTop="30px"
         android:paddingBottom="30px"
-        android:text="@string/headache_primary_solution"/>
+        android:text="@string/stomachache_primary_solution"/>
 
     <Button
         android:id="@+id/near_doc"

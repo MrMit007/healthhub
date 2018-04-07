@@ -104,4 +104,9 @@ public class MainActivity extends AppCompatActivity
         Intent i = new Intent(MainActivity.this,PainActivity.class);
         startActivity(i);
     }
+
+    public void breathing(View view){
+        Intent i=new Intent(MainActivity.this,BreathingActivity.class);
+        startActivity(i);
+    }
 }

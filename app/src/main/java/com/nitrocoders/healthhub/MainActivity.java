@@ -83,15 +83,15 @@ public class MainActivity extends AppCompatActivity
                 Intent i = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(i);
         } else if (id == R.id.nav_manage) {
-            Intent intent = new Intent(MainActivity.this,Profile.class);
+            Intent intent = new Intent(MainActivity.this,ProfileActivity.class);
             Intent get = getIntent();
             String name=get.getStringExtra("fullname");
             String email=get.getStringExtra("email");
             intent.putExtra("fullname",name);
             intent.putExtra("email",email);
-            startActivity(Profile.class);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
-
+            
         } else if (id == R.id.nav_send) {
 
         }

@@ -16,20 +16,29 @@ public class PainActivity extends AppCompatActivity {
     public void onClickImage(View view) {
         switch (view.getId()){
             case R.id.btmheadche:
-                Intent intentComp = new Intent(this,ComputerEng.class);
+                Intent intentComp = new Intent(PainActivity.this,headacheActivity.class);
                 startActivity(intentComp);
                 break;
             case R.id.btnbackpain:
-                Intent intentMech = new Intent(this,MechanicalEng.class);
+                Intent intentMech = new Intent(PainActivity.this,headacheActivity.class);
                 startActivity(intentMech);
                 break;
             case R.id.btnstomachache:
-                Intent intentCivil = new Intent(this,CivilEng.class);
+                Intent intentCivil = new Intent(PainActivity.this,headacheActivity.class);
                 startActivity(intentCivil);
                 break;
-            case R.id.btntoot:
-                Intent intentEc = new Intent(this,EcEng.class);
+            case R.id.btntoothache:
+                Intent intentEc = new Intent(PainActivity.this,headacheActivity.class);
                 startActivity(intentEc);
+                break;
+
+            case R.id.btnear:
+                Intent intentit = new Intent(PainActivity.this,headacheActivity.class);
+                startActivity(intentit);
+                break;
+            case R.id.btnsorethroat:
+                Intent intentee = new Intent(PainActivity.this,headacheActivity.class);
+                startActivity(intentee);
                 break;
         }
     }

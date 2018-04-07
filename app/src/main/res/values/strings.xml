@@ -6,12 +6,65 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="backpain_primary_solution">primary solution \n fdbd \n svfvf \n errgeer \n gbrbrgtr</string>
-    <string name="earache_primary_solution">primary solution for earache</string>
-    <string name="headache_primary_solution">primary solution for headache</string>
-    <string name="stomachache_primary_solution">primary solution for stomachache</string>
-    <string name="toothache_primary_solution">primary solution fro toothache</string>
-    <string name="sore_throat_primary_solution">primary solution for sore throat</string>
+    <string name="backpain_primary_solution">
+        - Wear comfortable, low-heeled shoes if you are on your feet all day.\n
+        - Don\'t slouch when standing or sitting.\n
+        - At home or work, make sure work surfaces are at a comfortable height.\n
+        - Warm-up and stretch before exercise or other strenuous physical activity.\n
+        - Don\'t try to lift objects that are too heavy and don\'t twist while lifting.\n
+        - Live a healthy lifestyle, stop smoking, and keep off the extra weight.\n
+    </string>
+
+    <string name="earache_primary_solution">
+        - use earpods.\n
+        - stay away from noisy places.\n
+    </string>
+
+    <string name="headache_primary_solution">
+        - Acupuncture\n
+        - Breathing exercises\n
+        - Sleep\n
+        - Sip soothing teas\n
+    </string>
+
+    <string name="stomachache_primary_solution">
+        - Settle Your Stomach with Baking Soda\n
+        - Drink Warm Salt Water\n
+        - Do some Gentle Yoga Stretches\n
+    </string>
+
+    <string name="toothache_primary_solution">
+        - Settle Your Stomach with Baking Soda\n
+        - Drink Warm Salt Water\n
+        - Do some Gentle Yoga Stretches\n
+    </string>
+
+    <string name="sore_throat_primary_solution">
+        - Gargle with salt water.\n
+        - Suck on an ice pop.\n
+        - Avoid acidic foods.\n
+        - Sip turmeric tea.\n
+    </string>
+
+    <string name="asthma_primary_solution">
+        - Deep belly breathing\n
+        - Homeopathy, taking tiny amounts of what triggers your asthma to make you less sensitive to it\n
+        - Progressive muscle relaxation\n
+    </string>
+
+    <string name="bronciolitis_primary_solution">
+        - Maintain a smoke-free environment. \n
+        - Try saline nose drops to ease congestion.\n
+        - Humidify the air.\n
+    </string>
+
+    <string name="cold_cough_primary_solution">
+        - Mixture of lemon, cinnamon and honey\n
+        - Gargle with salt-water\n
+        - Spiced tea\n
+        - Honey, lime juice and warm water\n
+    </string>
+
     <string name="suggest_doc">Suggest Doctor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

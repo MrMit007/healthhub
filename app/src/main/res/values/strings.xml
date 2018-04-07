@@ -5,10 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
-    <string name="backpain_description">primary solution \n fdbd \n svfvf \n errgeer \n gbrbrgtr</string>
-=======
 
+    <string name="backpain_description">primary solution \n fdbd \n svfvf \n errgeer \n gbrbrgtr</string>
+    <string name="suggest_doc">Suggest Doctor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 >>>>>>> 07c1e7c1a2420fa38a6ebc08e866fa9614fc674c

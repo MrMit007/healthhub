@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
             intent.putExtra("email",email);
             startActivity(intent);
         } else if (id == R.id.nav_share) {
-
+            
         } else if (id == R.id.nav_send) {
 
         }

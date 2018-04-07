@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".PainActivity" />
         <activity android:name=".headacheActivity" />
-        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>

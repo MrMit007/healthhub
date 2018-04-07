@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
             intent.putExtra("email",email);
             startActivity(intent);
         } else if (id == R.id.nav_share) {
-
+            
         } else if (id == R.id.nav_send) {
 
         }
@@ -102,6 +102,11 @@ public class MainActivity extends AppCompatActivity
     }
     public void pain(View view) {
         Intent i = new Intent(MainActivity.this,PainActivity.class);
+        startActivity(i);
+    }
+
+    public void breathing(View view){
+        Intent i=new Intent(MainActivity.this,BreathingActivity.class);
         startActivity(i);
     }
 }

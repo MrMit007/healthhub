@@ -10,12 +10,11 @@ Pain
 Breathing 
 - asthma => The respiratory condition where spasms in the lungs cause difficulty in breathing.
 - Bronchiolitis
-- Neumonia
+- Pneumonia
 
 
 Commom 
-- cold
-- Cough
+- cold & Cough
 - Fever
 
 
@@ -24,6 +23,66 @@ Skin
 - Rash
 - acne
 
-
 Pysio
 - Fracture
+
+
+backpain
+- Wear comfortable, low-heeled shoes if you are on your feet all day.\n
+- Don't slouch when standing or sitting.\n
+- At home or work, make sure work surfaces are at a comfortable height.\n
+- Warm-up and stretch before exercise or other strenuous physical activity.\n
+- Don't try to lift objects that are too heavy and don't twist while lifting.\n
+- Live a healthy lifestyle, stop smoking, and keep off the extra weight.\n
+
+earache
+- use earpods.\n
+- stay away from noisy places.\n
+
+headache
+- Acupuncture\n
+- Breathing exercises\n
+- Sleep\n
+- Sip soothing teas\n
+
+stomacache
+- Settle Your Stomach with Baking Soda\n
+- Drink Warm Salt Water\n
+- Do some Gentle Yoga Stretches\n
+
+toothache
+- Settle Your Stomach with Baking Soda\n
+- Drink Warm Salt Water\n
+- Do some Gentle Yoga Stretches\n
+
+sore throat
+- Gargle with salt water.\n
+- Suck on an ice pop.\n
+- Avoid acidic foods.\n
+- Sip turmeric tea.\n
+
+asthma
+- Deep belly breathing\n
+- Homeopathy, taking tiny amounts of what triggers your asthma to make you less sensitive to it\n
+- Progressive muscle relaxation\n
+
+bronchiolitis
+- Maintain a smoke-free environment. \n
+- Try saline nose drops to ease congestion.\n
+- Humidify the air.\n
+
+cold & cough
+- Mixture of lemon, cinnamon and honey\n
+- Gargle with salt-water\n
+- Spiced tea\n
+- Honey, lime juice and warm water\n
+
+
+backpain
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FiZ6ws8lYQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+sore throat
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DstbJtfKrpQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+asthma
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a81044nxI9I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

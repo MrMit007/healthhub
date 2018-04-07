@@ -93,9 +93,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
     public void pain(View view) {
         Intent i = new Intent(MainActivity.this,PainActivity.class);
         startActivity(i);
     }
+
 }

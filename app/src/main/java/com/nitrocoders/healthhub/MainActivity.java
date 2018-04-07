@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -82,7 +83,13 @@ public class MainActivity extends AppCompatActivity
                 Intent i = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(i);
         } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(MainActivity.this,Profile.class);
+            Intent get = getIntent();
+            String name=get.getStringExtra("fullname");
+            String email=get.getStringExtra("email");
+            intent.putExtra("fullname",name);
+            intent.putExtra("email",email);
+            startActivity(Profile.class);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

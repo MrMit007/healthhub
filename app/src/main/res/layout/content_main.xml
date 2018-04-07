@@ -33,10 +33,10 @@
                 android:text="Pain"
                 android:textColor="#2196F3"
                 android:textSize="25dp"
-                android:onClick="pain   "
+                android:onClick="pain"
                 android:background="@drawable/button_selector"
                 android:layout_gravity="center_horizontal"
-                tools:ignore="OnClick" />
+                />
             <Button
                 android:id="@+id/btncom"
                 android:layout_marginTop="20dp"

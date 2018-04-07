@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+xmlns:tools="http://schemas.android.com/tools"
+android:background="#ffffff"
+tools:context="com.nitrocoders.healthhub.PainActivity">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nitrocoders.healthhub.PainActivity">
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Pain"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/btmheadche"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/headache"
+            android:onClick="onClickImage"
+            tools:ignore="OnClick" />
+        <ImageButton
+            android:id="@+id/btnbackpain"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/backpain"
+            android:onClick="onClickImage"
+            tools:ignore="OnClick"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageButton
+        android:id="@+id/btnstomachache"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_weight="0.5"
+        android:src="@drawable/stomachache"
+        android:onClick="onClickImage"
+        tools:ignore="OnClick"/>
+    <ImageButton
+        android:id="@+id/toothache"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_weight="0.5"
+        android:src="@drawable/toothache"
+        android:onClick="onClickImage"
+        tools:ignore="OnClick"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/btnsorethroat"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/sorethroat"
+            android:onClick="onClickImage"
+            tools:ignore="OnClick"/>
+        <ImageButton
+            android:id="@+id/ear"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/ear"
+            android:onClick="onClickImage"
+            tools:ignore="OnClick"/>
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -6,9 +6,13 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="backpain_description">primary solution \n fdbd \n svfvf \n errgeer \n gbrbrgtr</string>
+    <string name="backpain_primary_solution">primary solution \n fdbd \n svfvf \n errgeer \n gbrbrgtr</string>
+    <string name="earache_primary_solution">primary solution for earache</string>
+    <string name="headache_primary_solution">primary solution for headache</string>
+    <string name="stomachache_primary_solution">primary solution for stomachache</string>
+    <string name="toothache_primary_solution">primary solution fro toothache</string>
+    <string name="sore_throat_primary_solution">primary solution for sore throat</string>
     <string name="suggest_doc">Suggest Doctor</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
->>>>>>> 07c1e7c1a2420fa38a6ebc08e866fa9614fc674c
 </resources>

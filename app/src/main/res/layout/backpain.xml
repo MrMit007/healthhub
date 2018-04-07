@@ -15,7 +15,7 @@
         android:paddingRight="50px"
         android:paddingTop="30px"
         android:paddingBottom="30px"
-        android:text="@string/backpain_description"/>
+        android:text="@string/backpain_primary_solution"/>
 
     <Button
         android:id="@+id/near_doc"

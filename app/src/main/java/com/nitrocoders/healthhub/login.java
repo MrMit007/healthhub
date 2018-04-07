@@ -25,6 +25,8 @@ public class login extends AppCompatActivity {
         email=email_txt.getText().toString();
         password=pwd_txt.getText().toString();
         Toast.makeText( this, "Email : "+ email + "Password :"+password, Toast.LENGTH_SHORT ).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     void signup(View v){

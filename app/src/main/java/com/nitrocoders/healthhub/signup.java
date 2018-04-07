@@ -34,12 +34,17 @@ public class signup extends AppCompatActivity {
         name = name_edit.getText().toString();
         email = email_edit.getText().toString();
         pwd = pwd_edit.getText().toString();
+        Toast.makeText(this,"method called",Toast.LENGTH_LONG);
+        DBHelper db = new DBHelper(this);
+        Toast.makeText(this,"method called",Toast.LENGTH_SHORT);
+        db.insertUser(name,email,pwd);
+        //int selectedid = role_group.getCheckedRadioButtonId();
+        //selected_role = (RadioButton)findViewById(selectedid);
+        //role = selected_role.getText().toString();
 
-        int selectedid = role_group.getCheckedRadioButtonId();
-        selected_role = (RadioButton)findViewById(selectedid);
-        role = selected_role.getText().toString();
-
-        Toast.makeText( this, "role : "+ role + "Password :"+pwd, Toast.LENGTH_SHORT ).show();
+        //Toast.makeText( this, "role : "+ role + "Password :"+pwd, Toast.LENGTH_SHORT ).show();
+        Toast.makeText(this,"User Created successfully",Toast.LENGTH_SHORT);
+        db.close();
     }
     void login(View v){
         Intent intent = new Intent(this,login.class);

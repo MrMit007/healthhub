@@ -22,5 +22,5 @@ public class ProfileActivity extends AppCompatActivity {
         name_txt.setText("Name : "+name);
         email_txt=(TextView)findViewById(R.id.email);
         email_txt.setText("Email : "+email);
-0    }
+    }
 }

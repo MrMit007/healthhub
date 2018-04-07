@@ -57,7 +57,7 @@ tools:context="com.nitrocoders.healthhub.PainActivity">
         android:onClick="onClickImage"
         tools:ignore="OnClick"/>
     <ImageButton
-        android:id="@+id/toothache"
+        android:id="@+id/btntoothache"
         android:layout_width="300dp"
         android:layout_height="150dp"
         android:scaleType="fitXY"
@@ -80,7 +80,7 @@ tools:context="com.nitrocoders.healthhub.PainActivity">
             android:onClick="onClickImage"
             tools:ignore="OnClick"/>
         <ImageButton
-            android:id="@+id/ear"
+            android:id="@+id/btnear"
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:scaleType="fitXY"

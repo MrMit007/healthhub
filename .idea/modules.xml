@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\Arrow\healthhub\app\app.iml" filepath="E:\Arrow\healthhub\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/healthhub.iml" filepath="$PROJECT_DIR$/healthhub.iml" />
-      <module fileurl="file://E:\Arrow\healthhub\healthhub.iml" filepath="E:\Arrow\healthhub\healthhub.iml" />
     </modules>
   </component>
 </project>

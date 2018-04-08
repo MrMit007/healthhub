@@ -25,8 +25,4 @@ public class DoctorActivity extends AppCompatActivity {
         email_txt.setText("Email : "+email);
     }
 
-    void takeappo(View v){
-        DoctorList dl = new DoctorList();
-
-    }
 }

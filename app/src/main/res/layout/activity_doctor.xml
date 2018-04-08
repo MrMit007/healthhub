@@ -104,7 +104,6 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/button_selector"
             android:text="My Appointment"
-            android:textColor="#2196F3"
-            android:onClick="takeappo"/>
+            android:textColor="#2196F3"/>
     </LinearLayout>
 </LinearLayout>

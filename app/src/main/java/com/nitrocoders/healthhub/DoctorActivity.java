@@ -3,6 +3,7 @@ package com.nitrocoders.healthhub;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class DoctorActivity extends AppCompatActivity {
@@ -22,5 +23,10 @@ public class DoctorActivity extends AppCompatActivity {
         name_txt.setText("Name : "+name);
         email_txt=(TextView)findViewById(R.id.email);
         email_txt.setText("Email : "+email);
+    }
+
+    void takeappo(View v){
+        DoctorList dl = new DoctorList();
+
     }
 }

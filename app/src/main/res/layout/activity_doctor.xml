@@ -97,13 +97,14 @@
             android:text="- Backpain\n- Fracture\n- Skin Disease"/>
 
         <Button
-            android:id="@+id/appotment"
+            android:id="@+id/appointment"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_width="210dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/button_selector"
             android:text="My Appointment"
-            android:textColor="#2196F3"/>
+            android:textColor="#2196F3"
+            android:onClick="takeappo"/>
     </LinearLayout>
 </LinearLayout>

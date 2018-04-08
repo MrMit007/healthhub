@@ -52,8 +52,6 @@ public class login extends AppCompatActivity {
                         String _email = cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_EMAIL));
                         String _role = cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_ROLE));
                         Toast.makeText(login.this, "Login Success", Toast.LENGTH_SHORT).show();
-                        Toast.makeText(login.this, "ROLE :"+_role, Toast.LENGTH_LONG).show();
-                        Toast.makeText(login.this,"Password : "+ password,Toast.LENGTH_SHORT).show();
                         if(_role.equals("Patient")) {
                             Intent intent = new Intent(login.this, MainActivity.class);
                             intent.putExtra("fullname", _fname);

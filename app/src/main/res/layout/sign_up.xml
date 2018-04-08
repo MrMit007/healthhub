@@ -3,10 +3,18 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40dp"
+        android:paddingLeft="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+    <TextView
         android:id="@+id/loginscrn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:text="Registration"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -78,8 +86,10 @@
         android:id="@+id/register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="Register"/>
+        android:layout_marginLeft="155dp"
+        android:background="@drawable/button_selector"
+        android:text="Register"
+        android:textColor="#2196F3"/>
 
     <TextView android:id="@+id/login_link"
         android:layout_width="match_parent"

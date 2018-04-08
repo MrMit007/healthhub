@@ -16,7 +16,7 @@
         android:id="@+id/loginscrn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:text="Login"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -30,6 +30,7 @@
         android:text="Email"/>
     <EditText
         android:id="@+id/email"
+        android:hint=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
@@ -52,8 +53,12 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="Login"/>
+        android:layout_marginLeft="155dp"
+        android:text="Login"
+        android:background="@drawable/button_selector"
+        android:textColor="#2196F3"
+        android:gravity="center"/>
+
     <TextView android:id="@+id/register_link"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

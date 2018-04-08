@@ -49,18 +49,29 @@ public class login extends AppCompatActivity {
                         cursor.moveToFirst();
                         //Retrieving User FullName and Email after successfull login and passing to LoginSucessActivity
                         String _fname = cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_FULLNAME));
-                        String _email= cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_EMAIL));
+                        String _email = cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_EMAIL));
+                        String _role = cursor.getString(cursor.getColumnIndex(SQLiteDBHelper.COLUMN_ROLE));
                         Toast.makeText(login.this, "Login Success", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(login.this,MainActivity.class);
-                        intent.putExtra("fullname",_fname);
-                        intent.putExtra("email",_email);
-                        startActivity(intent);
-
+                        Toast.makeText(login.this, "ROLE :"+_role, Toast.LENGTH_LONG).show();
+                        if(_role.equals("Patient")) {
+                            Intent intent = new Intent(login.this, MainActivity.class);
+                            intent.putExtra("fullname", _fname);
+                            intent.putExtra("email", _email);
+                            startActivity(intent);
+                        }
+                        else{
+                            Intent intent = new Intent(login.this,DoctorActivity.class);
+                            intent.putExtra("fullname", _fname);
+                            intent.putExtra("email", _email);
+                            startActivity(intent);
+                        }
                         //Removing MainActivity[Login Screen] from the stack for preventing back button press.
                         finish();
                     }
                     else {
                         Toast.makeText(login.this, "Username or Password is wrong.", Toast.LENGTH_SHORT).show();
+                        email_txt.setText("");
+                        pwd_txt.setText("");
                     }
                 }
         }});

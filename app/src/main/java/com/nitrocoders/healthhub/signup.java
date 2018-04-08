@@ -51,9 +51,12 @@ public class signup extends AppCompatActivity {
                 name = name_edit.getText().toString();
                 email = email_edit.getText().toString();
                 pwd = pwd_edit.getText().toString();
-                InsertData(name,email,pwd);
-                Toast.makeText(signup.this,"Successfully Created",Toast.LENGTH_SHORT).show();
-
+                int selected = role_group.getCheckedRadioButtonId();
+                selected_role = (RadioButton)findViewById(selected);
+                role = selected_role.getText().toString();
+                InsertData(name,email,pwd,role);
+                Toast.makeText(signup.this,"Account Created Successfully",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(signup.this,login.class));
             }
         });
         gotologin.setOnClickListener(new View.OnClickListener(){
@@ -65,11 +68,12 @@ public class signup extends AppCompatActivity {
         });
 
     }
-    public void InsertData(String n,String e,String p){
+    public void InsertData(String n,String e,String p,String r){
         ContentValues values = new ContentValues();
         values.put(SQLiteDBHelper.COLUMN_FULLNAME,n);
         values.put(SQLiteDBHelper.COLUMN_EMAIL,e);
         values.put(SQLiteDBHelper.COLUMN_PASSWORD,p);
+        values.put(SQLiteDBHelper.COLUMN_ROLE,r);
         long id = db.insert(SQLiteDBHelper.TABLE_NAME,null,values);
     }
 }

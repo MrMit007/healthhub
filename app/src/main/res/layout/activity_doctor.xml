@@ -35,16 +35,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
-                android:layout_marginTop="10dp"
-                android:text="Name : Dr. Ravi Patel"/>
+                android:layout_marginTop="10dp"/>
 
             <TextView
                 android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
-                android:layout_marginTop="10dp"
-                android:text="Email : dr.ravi@gmail.com"/>
+                android:layout_marginTop="10dp"/>
 
 
             <TextView

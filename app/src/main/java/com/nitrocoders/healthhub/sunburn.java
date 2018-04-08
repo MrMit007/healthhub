@@ -4,11 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-<<<<<<< HEAD
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
-=======
->>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
 
 public class sunburn extends AppCompatActivity {
 

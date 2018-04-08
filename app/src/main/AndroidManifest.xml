@@ -42,6 +42,5 @@
         <activity android:name=".CommonActivity" />
         <activity android:name=".fracture" />
         <activity android:name=".other"></activity>
-        <activity android:name=".DoctorActivity"></activity>
     </application>
 </manifest>

@@ -39,6 +39,15 @@
             android:paddingBottom="30px"
             android:text="@string/other_primary_solution"/>
 
+
+        <WebView
+            android:id="@+id/webVideoViewdip"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            android:scrollbars="none">
+            </WebView>
+
         <Button
             android:id="@+id/near_doc"
             android:layout_marginTop="50dp"

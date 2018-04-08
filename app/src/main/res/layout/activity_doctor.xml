@@ -96,5 +96,14 @@
             android:layout_marginLeft="20dp"
             android:text="- Backpain\n- Fracture\n- Skin Disease"/>
 
+        <Button
+            android:id="@+id/appotment"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_width="210dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="My Appointment"
+            android:textColor="#2196F3"/>
     </LinearLayout>
 </LinearLayout>

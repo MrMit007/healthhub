@@ -31,7 +31,6 @@
         <activity android:name=".bronchiolitis" />
         <activity android:name=".MapActivity" />
         <activity android:name=".ProfileActivity" />
-<<<<<<< HEAD
         <activity android:name=".SkinActivity" />
         <activity android:name=".sunburn" />
         <activity android:name=".PhysioActivity" />

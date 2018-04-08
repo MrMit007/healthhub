@@ -1,39 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="Bronchiolitis"
-        android:gravity="center"
-        android:textSize="30dp"
-        android:background="@color/colorPrimary"
-        android:textColor="#FFFFFF"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Bronchiolitis"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"/>
 
-    <TextView
-        android:id="@+id/address1"
-        android:gravity="start"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:maxLines="4"
-        android:lines="4"
-        android:paddingLeft="50px"
-        android:paddingRight="50px"
-        android:paddingTop="30px"
-        android:paddingBottom="30px"
-        android:text="@string/bronciolitis_primary_solution"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Symptoms"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"/>
 
-    <Button
-        android:id="@+id/near_doc"
-        android:layout_marginTop="50dp"
-        android:layout_width="365dp"
-        android:layout_height="wrap_content"
-        android:text="@string/suggest_doc"
-        android:textColor="#2196F3"
-        android:textSize="25dp"
-        android:background="@drawable/button_selector"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/address1"
+            android:gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:lines="11"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="@string/bronchiolitis_sym"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Remedies"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/address2"
+            android:gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:lines="3"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="@string/bronciolitis_primary_solution"/>
+
+        <Button
+            android:id="@+id/near_doc"
+            android:layout_marginTop="50dp"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:text="@string/suggest_doc"
+            android:textColor="#2196F3"
+            android:textSize="25dp"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

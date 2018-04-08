@@ -9,15 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Starter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".login"/>
         <activity android:name=".signup" />
-        <activity android:name=".login" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".PainActivity" />
         <activity android:name=".headache" />
         <activity android:name=".backpain" />
@@ -27,9 +28,10 @@
         <activity android:name=".soreThroat" />
         <activity android:name=".BreathingActivity" />
         <activity android:name=".asthma" />
-        <activity android:name=".bronchiolitis"></activity>
+        <activity android:name=".bronchiolitis" />
         <activity android:name=".MapActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DoctorActivity"></activity>
     </application>
 
 </manifest>

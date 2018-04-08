@@ -13,13 +13,15 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
     public static final String COLUMN_FULLNAME =  "fullname";
     public static final String COLUMN_EMAIL =  "email";
     public static final String COLUMN_PASSWORD =  "password";
+    public static final String COLUMN_ROLE = "role";
 
     private static final String CREATE_TABLE_QUERY =
             "CREATE TABLE " + TABLE_NAME + " (" +
                     COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     COLUMN_FULLNAME + " TEXT, "+
                     COLUMN_EMAIL + " TEXT, " +
-                    COLUMN_PASSWORD + " TEXT "+ ")";
+                    COLUMN_PASSWORD + " TEXT, "+
+                    COLUMN_ROLE + " TEXT " +")";
 
     public SQLiteDBHelper(Context context){
         super(context,DATABASE_NAME,null,DATABASE_VERSON);

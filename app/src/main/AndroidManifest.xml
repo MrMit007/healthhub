@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login"/>
+        <activity android:name=".login" />
         <activity android:name=".signup" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PainActivity" />
@@ -41,6 +41,13 @@
         <activity android:name=".pneumonia" />
         <activity android:name=".CommonActivity" />
         <activity android:name=".fracture" />
+<<<<<<< HEAD
         <activity android:name=".other"></activity>
+=======
+        <activity android:name=".other" />
+        <activity android:name=".DoctorActivity" />
+        <activity android:name=".Call"></activity>
+>>>>>>> 054755a1ae1a1a43cd8aa886b23dd555f396fba5
     </application>
+
 </manifest>

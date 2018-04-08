@@ -1,10 +1,16 @@
 package com.nitrocoders.healthhub;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+=======
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+>>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
 
 public class asthma extends AppCompatActivity {
 
@@ -22,5 +28,10 @@ public class asthma extends AppCompatActivity {
         });
 
         webViewdip.loadData(html, "text/html", "utf-8");
+    }
+
+    public void asthama(View view) {
+        Intent i = new Intent(asthma.this, MapActivity.class);
+        startActivity(i);
     }
 }

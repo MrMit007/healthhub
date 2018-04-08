@@ -1,10 +1,14 @@
 package com.nitrocoders.healthhub;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+=======
+>>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
 
 public class acne extends AppCompatActivity {
 
@@ -22,5 +26,10 @@ public class acne extends AppCompatActivity {
         });
 
         webViewdip.loadData(html, "text/html", "utf-8");
+    }
+
+    public void acne(View view) {
+        Intent i = new Intent(acne.this, MapActivity.class);
+        startActivity(i);
     }
 }

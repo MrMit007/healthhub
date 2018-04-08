@@ -1,10 +1,14 @@
 package com.nitrocoders.healthhub;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+=======
+>>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
 
 public class bronchiolitis extends AppCompatActivity {
 
@@ -13,6 +17,7 @@ public class bronchiolitis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bronchiolitis);
 
+<<<<<<< HEAD
         WebView webViewdip = (WebView)findViewById(R.id.webVideoViewdip);
         webViewdip.setVisibility(View.VISIBLE);
         String html ="<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/qZC2FKX9L9U\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>";
@@ -22,6 +27,13 @@ public class bronchiolitis extends AppCompatActivity {
         });
 
         webViewdip.loadData(html, "text/html", "utf-8");
+=======
+    }
+
+    public void asthama(View view) {
+        Intent i = new Intent(bronchiolitis.this, MapActivity.class);
+        startActivity(i);
+>>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
     }
 
 }

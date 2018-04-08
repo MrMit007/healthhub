@@ -1,10 +1,14 @@
 package com.nitrocoders.healthhub;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+=======
+>>>>>>> 172417a4cc4eb06239ae382dcab4c95374bb7bfa
 
 public class headache extends Activity {
 
@@ -22,5 +26,11 @@ public class headache extends Activity {
         });
 
         webViewdip.loadData(html, "text/html", "utf-8");
+    }
+
+
+    public void map(View view) {
+        Intent i = new Intent(headache.this, MapActivity.class);
+        startActivity(i);
     }
 }

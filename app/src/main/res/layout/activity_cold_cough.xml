@@ -68,6 +68,7 @@
             android:layout_height="wrap_content"
             android:text="@string/suggest_doc"
             android:textColor="#2196F3"
+            android:onClick="map"
             android:textSize="25dp"
             android:background="@drawable/button_selector"
             android:layout_gravity="center_horizontal" />

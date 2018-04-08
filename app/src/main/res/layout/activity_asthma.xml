@@ -69,6 +69,7 @@
             android:text="@string/suggest_doc"
             android:textColor="#2196F3"
             android:textSize="25dp"
+            android:onClick="asthama"
             android:background="@drawable/button_selector"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>

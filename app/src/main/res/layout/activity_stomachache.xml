@@ -70,6 +70,7 @@
             android:textColor="#2196F3"
             android:textSize="25dp"
             android:background="@drawable/button_selector"
+            android:onClick="map"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

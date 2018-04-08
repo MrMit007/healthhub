@@ -27,9 +27,20 @@
         <activity android:name=".soreThroat" />
         <activity android:name=".BreathingActivity" />
         <activity android:name=".asthma" />
-        <activity android:name=".bronchiolitis"></activity>
+        <activity android:name=".bronchiolitis" />
         <activity android:name=".MapActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SkinActivity" />
+        <activity android:name=".sunburn" />
+        <activity android:name=".PhysioActivity" />
+        <activity android:name=".rash" />
+        <activity android:name=".acne" />
+        <activity android:name=".cold_cough" />
+        <activity android:name=".fever" />
+        <activity android:name=".pneumonia" />
+        <activity android:name=".CommonActivity" />
+        <activity android:name=".fracture" />
+        <activity android:name=".other"></activity>
     </application>
 
 </manifest>

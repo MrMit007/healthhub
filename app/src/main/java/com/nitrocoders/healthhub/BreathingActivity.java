@@ -19,12 +19,12 @@ public class BreathingActivity extends AppCompatActivity {
                 Intent intentHead = new Intent(BreathingActivity.this,asthma.class);
                 startActivity(intentHead);
                 break;
-            case R.id.btnbronchiolitis:
+            case R.id.btnbronchiolotis:
                 Intent intentBack = new Intent(BreathingActivity.this,bronchiolitis.class);
                 startActivity(intentBack);
                 break;
             case R.id.btnpneumonia:
-                Intent intentStomach = new Intent(BreathingActivity.this,stomachache.class);
+                Intent intentStomach = new Intent(BreathingActivity.this,pneumonia.class);
                 startActivity(intentStomach);
                 break;
         }

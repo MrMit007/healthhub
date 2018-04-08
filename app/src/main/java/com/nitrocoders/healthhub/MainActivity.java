@@ -109,4 +109,19 @@ public class MainActivity extends AppCompatActivity
         Intent i=new Intent(MainActivity.this,BreathingActivity.class);
         startActivity(i);
     }
+
+    public void skin(View view){
+        Intent i=new Intent(MainActivity.this,SkinActivity.class);
+        startActivity(i);
+    }
+
+    public void physio(View view){
+        Intent i=new Intent (MainActivity.this,PhysioActivity.class);
+        startActivity(i);
+    }
+
+    public void common(View view){
+        Intent i=new Intent(MainActivity.this,CommonActivity.class);
+        startActivity(i);
+    }
 }

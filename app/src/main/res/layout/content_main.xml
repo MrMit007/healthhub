@@ -58,6 +58,7 @@
                 android:background="@drawable/button_selector"
                 android:text="skin"
                 android:textSize="25dp"
+                android:onClick="skin"
                 android:layout_gravity="center_horizontal"/>
 
             <Button
@@ -69,6 +70,7 @@
                 android:text="physio"
                 android:textColor="#2196F3"
                 android:textSize="25dp"
+                android:onClick="physio"
                 android:layout_gravity="center_horizontal"/>
 
             <Button
@@ -80,6 +82,7 @@
                 android:text="common"
                 android:textColor="#2196F3"
                 android:textSize="25dp"
+                android:onClick="common"
                 android:layout_gravity="center_horizontal"/>
 
         </LinearLayout>

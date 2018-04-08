@@ -25,48 +25,23 @@
             android:layout_height="wrap_content"
             >
             <ImageButton
-                android:id="@+id/btnasthma"
+                android:id="@+id/btncold"
                 android:layout_width="300dp"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
                 android:layout_weight="0.5"
-                android:src="@drawable/asthma"
+                android:src="@drawable/cold"
                 android:onClick="onClickImage"
                 tools:ignore="OnClick" />
             <ImageButton
-                android:id="@+id/btnbronchiolotis"
+                android:id="@+id/btnfever"
                 android:layout_width="300dp"
                 android:layout_height="150dp"
                 android:scaleType="fitXY"
                 android:layout_weight="0.5"
-                android:src="@drawable/bronchiolitis"
+                android:src="@drawable/fever"
                 android:onClick="onClickImage"
                 tools:ignore="OnClick"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-            <ImageButton
-                android:id="@+id/btnpneumonia"
-                android:layout_width="300dp"
-                android:layout_height="150dp"
-                android:scaleType="fitXY"
-                android:layout_weight="0.5"
-                android:src="@drawable/pneumonia"
-                android:onClick="onClickImage"
-                tools:ignore="OnClick"/>
-
-
-            <ImageButton
-                android:layout_width="300dp"
-                android:layout_height="150dp"
-                android:scaleType="fitXY"
-                android:layout_weight="0.5"
-                android:background="#FFFFFF"
-                android:onClick="onClickImage"
-                tools:ignore="OnClick"/>
-
         </LinearLayout>
     </LinearLayout>
 

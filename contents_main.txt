@@ -1,3 +1,4 @@
+####################################################
 Pain
 - Backpain 
 - Earache  => Pain inside ear
@@ -25,6 +26,9 @@ Skin
 
 Pysio
 - Fracture
+- other
+
+#######################################
 
 
 backpain
@@ -77,6 +81,25 @@ cold & cough
 - Spiced tea\n
 - Honey, lime juice and warm water\n
 
+fever
+- Cold Water Bath\n
+- Water and Juices\n
+- Avoid spicy and fried food
+
+sunburn
+- Place a cool compress on sunburned skin for immediate sunburn relief.\n
+- Use lotions that contain aloe Vera to soothe and moisturize sunburnt skin. Some aloe products contain lidocaine, an anesthetic that can help relieve sunburn pain. Aloe Vera is also a good moisturizer for peeling skin.\n
+- Cucumbers have natural antioxidant and analgesic properties. Chill cucumbers, then mash in a blender to create a paste, and apply to affected sunburned areas including the face. Cucumber also can be soothing for peeling skin following a sunburn.\n
+- Cornstarch also can be mixed with water to form a paste that can be applied to skin to help soothe the sunburn.
+
+rash
+- Rub extra-virgin olive oil or a combination of olive oil and honey on your rash a few times daily until it heals.\n
+- Thanks to its antibacterial, antifungal, anti-inflammatory and emollient properties, aloe vera is excellent for treating a number of skin ailments including rashes as also soothing the skin.\n
+- Chamomile is very helpful in treating rashes. It relieves itching, soothes the skin, reduces inflammation and helps healing thanks to its anti-irritant and anti-inflammatory properties as also antibacterial, antifungal and antiviral effects.
+
+acne
+- 
+#######################################################################
 
 backpain
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FiZ6ws8lYQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -86,3 +109,134 @@ sore throat
 
 asthma
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/a81044nxI9I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+######################################################################
+
+Backpain 
+- loss of bowel or bladder control\n
+- numbness, tingling, or weakness in one or both legs\n
+- onset following trauma, such as a fall or a blow to the back\n
+- intense, constant pain that gets worse at night\n
+- presence of unexplained weight loss\n
+- pain associated with a throbbing sensation in the abdomen\n
+- presence of fever
+
+Earache 
+- Sleep problems and restlessness at night\n
+- Problems with hearing, more than usual\n
+- Loss in appetite\n
+- Incessant crying in children\n
+- Ear pain\n
+- Fever\n
+- Dizziness\n
+- Problem balancing\n
+- Irritability\n
+- Coughing and running nose
+
+
+Headache 
+- Dull, aching head pain\n
+- Sensation of tightness or pressure across your forehead or on the sides and back of your head\n
+- Tenderness on your scalp, neck and shoulder muscles
+
+
+Stomachache 
+- constipation.\n
+- diarrhea.\n
+- gastroenteritis (stomach flu)\n
+- acid reflux (when stomach contents leak backward into the esophagus, causing heartburn and other symptoms)\n
+- vomiting.\n
+- stress.
+
+
+toothaceh 
+- Tooth pain that may be sharp, throbbing, or constant. In some people, pain results only when pressure is applied to the tooth.\n
+- Swelling around the tooth.\n
+- Fever or headache.\n
+- Foul-tasting drainage from the infected tooth
+
+
+Sore Thorat
+- Fever.\n
+- Cough.\n
+- Runny nose.\n
+- Sneezing.\n
+- Body aches.\n
+- Headache.\n
+- Nausea or vomiting.
+
+asthma
+- wheezing\n
+- breathlessness\n
+- chest tightness\n
+- coughing\n
+- difficulty speaking.
+
+
+
+Bronchiolitis
+- Vomiting\n
+- Audible wheezing sounds\n
+- Breathing very fast — more than 60 breaths a minute (tachypnea)  — and shallowly\n
+- Labored breathing — the  ribs seem to suck inward when infant inhales\n
+- Sluggish or lethargic appearance\n
+- Refusal to drink enough, or breathing too fast to eat or drink\n
+- Skin turning blue, especially the lips and fingernails (cyanosis)
+
+Pneumonia
+- Chest pain when you breathe or cough\n
+- Confusion or changes in mental awareness (in adults age 65 and older)\n
+- Cough, which may produce phlegm\n
+- Fatigue\n
+- Fever, sweating and shaking chills\n
+- Lower than normal body temperature (in adults older than age 65 and people with weak immune systems)\n
+  Nausea, vomiting or diarrhea\n
+- Shortness of breath
+
+
+cold & Cough
+- Runny or stuffy nose.\n
+- Sore throat.\n
+- Cough.\n
+- Congestion.\n
+- Slight body aches or a mild headache.\n
+- Sneezing.\n
+- Low-grade fever.\n
+- Generally feeling unwell (malaise)
+
+
+Fever
+- Sweating\n
+- Chills and shivering\n
+- Headache\n
+- Muscle aches\n
+- Loss of appetite\n
+- Irritability\n
+- Dehydration\n
+- General weakness.
+
+Sunburn
+- fever\n
+- chills\n
+- nausea and vomiting\n
+- weakness\n
+- low blood pressure\n
+- fainting\n
+- extreme weakness
+
+Rash
+- Itchiness.\n
+- Skin redness.\n
+- Dry, scaly, or crusted skin that might become thick and leathery from long-term scratching.\n
+- Formation of small, fluid-filled blisters that might ooze when scratched.\n
+- Infection of the areas where the skin has been broken.
+
+acne
+- Whiteheads (closed plugged pores)\n
+- Blackheads (open plugged pores)\n
+- Small red, tender bumps (papules)\n
+- Pimples (pustules), which are papules with pus at their tips\n
+- Large, solid, painful lumps beneath the surface of the skin (nodules)\n
+- Painful, pus-filled lumps beneath the surface of the skin (cystic lesions)
+
